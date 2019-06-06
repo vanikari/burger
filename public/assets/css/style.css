@@ -1,91 +1,27 @@
-html {
-    background-color: #FFC04C;
-}
-
 body {
-    width: 75%;
-   margin: 0 auto; 
-
-   display: flex;
-   min-height: 100vh;
-   flex-direction: column;
-   /* background-color: white; */
+    background-color: #E6DA9F;
+    font-family: 'Lato', sans-serif;
 }
 
-#burger_img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    height: 70%
+* {
+    background-color: #FBF6C3;
 }
 
-h1 {
-    text-align: center;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 65px;
-    margin: 50px;
+pre {
+    background-color: #77F290;
+    font-size: 1.5em;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
 }
 
-.burgerAvailable {
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-weight: normal;
-    font-size: 20px;
-    text-align: center;
-    border-radius: 25px;
-    width: 100%;
-    margin: 10px;
-    padding: 10px;
-    background-color: #b7ffc2;
-    border: none;
+img {
+    width: 25%;
 }
 
-.burgerAvailable:hover {
-    background-color: #81ff94;
-}
-
-.burgerEaten {
-    font-family: 'Crafty Girls', cursive;
-    font-weight: normal;
-    font-size: 20px;
-    text-align: center;
-
-    border-radius: 25px;
-    margin: 10px;
-    padding: 10px;
-    background-color: #ffd1c9;
-}
-
-h2 {
-     text-align: center;
-    font-family: 'Fontdiner Swanky', cursive;
-    font-size: 40px;
-    margin: 50px;
-}
-
-.formContainer {
-    background-color: orange;
-}
-
-.addBurgerButton {
-    font-family: 'Crafty Girls', cursive;
-    font-weight: normal;
-    font-size: 20px;
-    text-align: center;
-
-    border-radius: 25px;
-    width: 100%;
-    margin: 0;
-    padding: 10px;
-    background-color: #FFC04C;
-    border: none;
-}
-
-.addBurgerButton:active {
-   background-color: #FFC04C;
-}
-
-.burgerFooter {
-   background-color: #FFC04C;
-   padding: 20px 0;
+.form-control[readonly] {
+    color: black;
+    margin: 5px;
+    border: 20px;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
 }

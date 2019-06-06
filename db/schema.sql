@@ -10,6 +10,6 @@ CREATE TABLE burgers
 	id int AUTO_INCREMENT NOT NULL,
 	burger_name varchar(100) NOT NULL,
     devoured boolean DEFAULT false,
-    createdAt TIMESTAMP NOT NULL,
+    createdAt TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
 	PRIMARY KEY (id)
 );
